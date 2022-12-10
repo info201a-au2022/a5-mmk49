@@ -57,7 +57,7 @@ function(input, output) {
   })
   
   output$US_example <- renderText({
-    US_text <- paste0("Thoughout United States history, in millions of tonnes, carbon emissions from oil have increased from ", oil_1870, " in 1870 ", "to ", strong(oil_2021), " in 2021. ", "Gas has increased from ", gas_1870, " to ", strong(gas_2021), ". Coal has increased from ", coal_1870, " to ", strong(coal_2021), ". Cement has increased from ", coal_1870, " to ", strong(coal_2021), ". In all forms of carbon production there has been an exponential increase in its production since 1870.")
+    US_text <- paste0("Thoughout United States history, in millions of tonnes, carbon emissions from oil have increased from ", oil_1870, " in 1870 ", "to ", strong(oil_2021), " in 2021. ", "Gas has increased from ", gas_1870, " to ", strong(gas_2021), ". Coal has increased from ", coal_1870, " to ", strong(coal_2021), ". Cement has increased from ", coal_1870, " to ", strong(coal_2021), ". In all forms of carbon production there has been an exponential increase in its production since 1870. This is one example that showcases how this application can be used to show how the CO2 production of certain countries has reached uncontrolable amounts and expose the countries who need to make changes to reduce global emissions.")
   })
   
   output$co2_data <-DT::renderDataTable(

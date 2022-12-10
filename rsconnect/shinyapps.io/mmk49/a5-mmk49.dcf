@@ -5,9 +5,9 @@ account: mmk49
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7753719
-bundleId: 6580606
+bundleId: 6618574
 url: https://mmk49.shinyapps.io/a5-mmk49/
-when: 1669959489.61774
-lastSyncTime: 1669959489.61777
+when: 1670641834.85396
+lastSyncTime: 1670641834.85399
 asMultiple: FALSE
 asStatic: FALSE
